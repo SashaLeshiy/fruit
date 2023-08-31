@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: true,
   runtimeConfig: {
     public: {
-      apiBase: process.env.API_BASE
+      apiBase: process.env.API_BASE || 'https://devtwit8.ru/api/v1/page/?path='
     }
   },
   devtools: { enabled: true },
