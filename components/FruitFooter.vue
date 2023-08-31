@@ -50,6 +50,10 @@
     min-height: 300px;
     border-top: 1px solid #8d959c;
 
+    :deep(.fruit-subscribe) {
+      padding: 0;
+    }
+
   &__container {
     margin: 0 auto;
     padding: 20px;
