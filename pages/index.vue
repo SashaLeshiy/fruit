@@ -24,7 +24,7 @@ articles.value = data._value.body[0].data.articles
 useHead({
   title: data._value.meta.title,
   meta: [
-    { description: data._value.meta.description }
+    { name: 'description', content: data._value.meta.description }
   ]
 })
 
