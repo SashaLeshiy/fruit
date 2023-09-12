@@ -1,6 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Blog
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Stack
+
+- Nuxt 3
+- SSR
+- Figma
+
+## Description
+
+Создание клиентской части сервиса для публикации статей. 
+На бэкенде CMS, которая отдает содержимое страницы в JSON. Контент страницы формируется динамически из блоков, полученных через API.   
 
 ## Setup
 
